@@ -4,6 +4,23 @@ body {
   justify-content: center;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.frame {
+  display: flex;
+}
+
+.photo {
+  margin-top: 20px;
+  margin-right: 20px;
+  flex: none;
+  width: auto;
+}
+
+.content-right {
+  flex: auto;
+  margin-top: 18px;
+}
+
 .title {
   flex: 90%;
   text-align: center;
